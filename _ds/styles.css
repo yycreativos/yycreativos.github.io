@@ -1,0 +1,8 @@
+@import 'tokens/fonts.css';
+@import 'tokens/colors.css';
+@import 'tokens/typography.css';
+@import 'tokens/spacing.css';
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-body)}
+a{color:var(--y-orange);text-decoration:none}
+a:hover{color:var(--y-yellow-dark);text-decoration:underline}

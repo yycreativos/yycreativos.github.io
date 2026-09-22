@@ -1,0 +1,32 @@
+:root{
+--y-yellow:#FFDD00;
+--y-yellow-dark:#F2A900;
+--y-black:#000000;
+--y-white:#FFFFFF;
+--y-orange:#FB9A26;
+--gray-950:oklch(0.16 0 0);
+--gray-900:oklch(0.22 0 0);
+--gray-700:oklch(0.4 0 0);
+--gray-500:oklch(0.58 0 0);
+--gray-300:oklch(0.82 0 0);
+--gray-150:oklch(0.92 0 0);
+--gray-100:oklch(0.96 0 0);
+--gray-50:oklch(0.985 0 0);
+--text-primary:var(--y-black);
+--text-secondary:var(--gray-700);
+--text-inverse:var(--y-white);
+--text-on-yellow:var(--y-black);
+--surface-page:var(--y-white);
+--surface-card:var(--y-white);
+--surface-sunken:var(--gray-50);
+--surface-inverse:var(--y-black);
+--surface-brand:var(--y-yellow);
+--border-subtle:var(--gray-150);
+--border-default:var(--gray-300);
+--border-strong:var(--y-black);
+--accent:var(--y-yellow);
+--accent-hover:var(--y-yellow-dark);
+--accent-contrast:var(--y-black);
+--gradient-shard:linear-gradient(135deg,var(--y-yellow) 0%,var(--y-orange) 100%);
+--focus-ring:0 0 0 3px color-mix(in oklch, var(--y-yellow) 60%, transparent)
+}
